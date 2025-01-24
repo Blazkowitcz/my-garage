@@ -1,0 +1,33 @@
+{
+  "name": "my-garage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-namespace": "^0.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.9.3",
+    "mongoose-autopopulate": "^1.1.0"
+  },
+  "_moduleAliases": {
+    "@models": "src/models",
+    "@services": "src/services",
+    "@controllers": "src/controllers",
+    "@middlewares": "src/middlewares",
+    "@routes": "src/routes",
+    "@modules": "src/modules",
+    "@utils": "src/utils"
+  }
+}
